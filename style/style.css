@@ -161,8 +161,65 @@ body {
     color: #141414;
 }
 
+/* preview ------------------------------------------------------*/
+
 .preview-wrapper {
     max-width: 1140px;
     margin: 0 auto;
+}
+
+.preview-img {
     padding: 0 0 24px 0;
+    border-bottom: 1px solid #7A7A7A;
+}
+
+.preview-title {
+    max-width: 735px;
+    color: #141414;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 128%;
+    text-transform: uppercase;
+    padding: 28px 0 32px 0;
+}
+
+/* entertainments ----------------------------------------------------*/
+
+.entertainments-section {
+    margin: 0 0 68px 0
+}
+
+.entertainments-wrapper {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 0 92px 0;
+    border-bottom: 1px solid #7A7A7A;
+}
+
+.entertainment-title {
+    color: #BF6024;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 128%;
+    padding: 0 0 32px 0;
+}
+
+.entertainments-cards-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 72px;
+    justify-content: space-between;
+}
+
+.entertainment-card-image {
+    margin: 0 0 12px 0;
+}
+
+.entertainment-card-title {
+    color: #141414;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 128%;
+    text-transform: uppercase;
 }

@@ -21,8 +21,8 @@
     font-style: normal;
     font-weight: 600;
     src: local(""),
-    url("../fonts/RobotoFlex-Regular.woff") format("woff"),
-    url("../fonts/RobotoFlex-Regular.woff2") format("woff2");
+    url("../fonts/Roboto-Medium.woff") format("woff"),
+    url("../fonts/Roboto-Medium.woff2") format("woff2");
 }
 
 @font-face {
