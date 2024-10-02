@@ -223,3 +223,173 @@ body {
     line-height: 128%;
     text-transform: uppercase;
 }
+
+/* residence -------------------------------------------------------*/
+
+.residence-wrapper {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 0 76px 0;
+    border-bottom: 1px solid #7A7A7A;
+}
+
+.residence-title {
+    color: #BF6024;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 128%;
+    padding: 0 0 32px 0;
+}
+
+.residence-cards-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 30px;
+}
+
+.residence-card-apartments {
+    background-image: url("../img/residence/apartments-image.png");
+    width: 555px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.residence-card-apartments-wrapper {
+    padding: 0 0 28px 0;
+}
+
+.residence-apartments-title {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 128%;
+    text-align: left;
+    padding: 0 0 24px 0;
+}
+
+.residence-apartments-buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 18px;
+}
+
+.residence-button-book {
+    color: #E5C6B2;
+    background-color: #BF6024;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 128%;
+    text-transform: uppercase;
+    border-radius: 50px;
+    padding: 6px 12px;
+}
+
+.residence-button-view {
+    color: #E5C6B2;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 128%;
+    text-transform: uppercase;
+    border: 1px solid #E5C6B2;
+    border-radius: 50px;
+    padding: 6px 12px;
+}
+
+.residence-card-right-wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.residence-card-element {
+    background-color: #EAEDF2;
+    width: 540px;
+    height: 285px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.residence-card-wrapper {
+    padding: 0 0 0 72px;
+}
+
+.residence-card-hotel-title {
+    max-width: 205px;
+    color: #141414;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 128%;
+    padding: 0 0 28px 0;
+}
+
+.residence-button-choose {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    border: 1px solid #BF6024;
+    border-radius: 50px;
+    padding: 6px 12px;
+}
+
+.residence-button-choose-text {
+    color: #BF6024;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 128%;
+    text-transform: uppercase;
+}
+
+.residence-card-loyalty-title {
+    color: #141414;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 128%;
+    padding: 0 0 12px 0;
+}
+
+.residence-card-loyalty-text {
+    max-width: 262px;
+    color: #141414;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 128%;
+    padding: 0 0 24px 0;
+}
+
+.residence-loyalty-buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}
+
+.residence-apartments-book {
+    color: #E5C6B2;
+    background-color: #BF6024;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 128%;
+    text-transform: uppercase;
+    border-radius: 50px;
+    padding: 6px 12px;
+}
+
+.residence-apartments-view {
+    color: #BF6024;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 128%;
+    text-transform: uppercase;
+    border: 1px solid #BF6024;
+    border-radius: 50px;
+    padding: 6px 12px;
+}
