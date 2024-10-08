@@ -162,7 +162,9 @@ body {
 }
 
 /* preview ------------------------------------------------------*/
-
+.preview-section {
+    margin: 0 0 28px 0;
+}
 .preview-wrapper {
     max-width: 1140px;
     margin: 0 auto;
@@ -173,6 +175,8 @@ body {
     border-bottom: 1px solid #7A7A7A;
 }
 
+/* entertainments ----------------------------------------------------*/
+
 .preview-title {
     max-width: 735px;
     color: #141414;
@@ -180,10 +184,8 @@ body {
     font-weight: 600;
     line-height: 128%;
     text-transform: uppercase;
-    padding: 28px 0 32px 0;
+    padding: 0 0 32px 0;
 }
-
-/* entertainments ----------------------------------------------------*/
 
 .entertainments-section {
     margin: 0 0 68px 0
