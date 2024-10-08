@@ -242,25 +242,25 @@ body {
 }
 
 .residence-cards-wrapper {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    gap: 30px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 30px;
 }
 
 .residence-card-apartments {
     background-image: url("../img/residence/apartments-image.png");
     width: 555px;
     height: 600px;
+    grid-column: 1 / span 6;
+    grid-row: 1 / span 2;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     justify-content: flex-end;
 }
 
 .residence-card-apartments-wrapper {
-    padding: 0 0 28px 0;
+    padding: 0 0 28px 34px;
 }
 
 .residence-apartments-title {
@@ -308,14 +308,12 @@ body {
     gap: 30px;
 }
 
-.residence-card-element {
+.residence-card-hotel {
     background-color: #EAEDF2;
     width: 540px;
     height: 285px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
+    grid-column: 7 / span 6;
+    grid-row: 1;
 }
 
 .residence-card-wrapper {
@@ -347,6 +345,14 @@ body {
     font-weight: 500;
     line-height: 128%;
     text-transform: uppercase;
+}
+
+.residence-card-loyalty {
+    background-color: #EAEDF2;
+    width: 540px;
+    height: 285px;
+    grid-column: 7 / span 6;
+    grid-row: 2;
 }
 
 .residence-card-loyalty-title {
